@@ -106,6 +106,7 @@ body {
 .verse {
   margin: 2px 0;
   text-align: justify;
+  text-align-last: justify;
   padding: 4px 15px;
   border-bottom: 1px solid #f0f0f0;
   transition: background-color 0.3s ease;
@@ -116,6 +117,8 @@ body {
   line-height: 1.2;
   display: block;
   text-justify: inter-word;
+  direction: rtl;
+  unicode-bidi: embed;
 }
 
 .verse:hover {
@@ -163,6 +166,9 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-justify: inter-word;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
 }
 
@@ -186,6 +192,9 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-justify: inter-word;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
 }
 
@@ -230,6 +239,9 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-justify: inter-word;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
   
   .font-btn {
@@ -282,6 +294,9 @@ body {
     text-align: justify;
     text-justify: inter-word;
     display: block;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
   
   .font-btn {
@@ -342,6 +357,9 @@ body {
     text-align: justify;
     text-justify: inter-word;
     display: block;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
   
   .font-btn {
@@ -371,6 +389,9 @@ body {
     text-align: justify;
     text-justify: inter-word;
     display: block;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: embed;
   }
   
   .quran-lines {
