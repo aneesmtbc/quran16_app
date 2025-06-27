@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quranic Verses - Page 4</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+    /* Al Qalam Quran Majeed Web font - using fallback fonts */
+    .quran-text {
+      font-family: 'Al Qalam Quran Majeed Web', 'Amiri Quran', 'Noto Nastaliq Urdu', 'Traditional Arabic', serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-container">
+    <div class="info">
+      <p>Surah Name: <span id="surah-name">Al-Baqarah</span></p>
+      <p>Surah Number: <span id="surah-number">2</span></p>
+      <p>Juz: <span id="juz-name">1</span></p>
+      <p>Juz Number: <span id="juz-number">1</span></p>
+    </div>
+    <div class="font-controls">
+      <button class="font-btn" onclick="zoomIn()">+</button>
+      <button class="font-btn" onclick="zoomOut()">-</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main-content">
+      <div class="quran-lines quran-text" id="quran-lines">
+        <!-- 16 lines of Quranic verses from p4.xlsx -->
+        <p class="verse">اُولٰٓٮِٕكَ عَلٰى هُدًى مِّنۡ رَّبِّهِمۡ​ وَاُولٰٓٮِٕكَ هُمُ الۡمُفۡلِحُوۡنَ‏ ﻿﻿ ٥ اِنَّ الَّذِيۡنَ</p>
+        <p class="verse">كَفَرُوۡا سَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ‏ ٦ خَتَمَ</p>
+        <p class="verse">اللّٰهُ عَلَىٰ قُلُوۡبِهِمۡ وَعَلٰى سَمۡعِهِمۡ​ؕ وَعَلٰىٓ اَبۡصَارِهِمۡ غِشَاوَةٌ  وَّلَهُمۡ</p>
+        <p class="verse">عَذَابٌ عَظِيۡمٌ‏ ٧ وَمِنَ النَّاسِ مَنۡ يَّقُوۡلُ اٰمَنَّا بِاللّٰهِ وَبِالۡيَوۡمِ</p>
+        <p class="verse">الۡاٰخِرِ وَمَا هُمۡ بِمُؤۡمِنِيۡنَ​ۘ‏ ٨ يُخٰدِعُوۡنَ اللّٰهَ وَالَّذِيۡنَ اٰمَنُوۡا ​ۚ وَمَا</p>
+        <p class="verse">يَخۡدَعُوۡنَ اِلَّاۤ اَنۡفُسَهُمۡ وَمَا يَشۡعُرُوۡنَؕ‏ ٩ فِىۡ قُلُوۡبِهِمۡ مَّرَضٌۙ</p>
+        <p class="verse">فَزَادَهُمُ اللّٰهُ مَرَضًا ​ۚ وَّلَهُمۡ عَذَابٌ اَلِيۡمٌۢۙ بِمَا كَانُوۡا يَكۡذِبُوۡنَ‏ ١٠</p>
+        <p class="verse">وَاِذَا قِيۡلَ لَهُمۡ لَا تُفۡسِدُوۡا فِىۡ الۡاَرۡضِۙ قَالُوۡاۤ اِنَّمَا نَحۡنُ مُصۡلِحُوۡنَ‏ ١١</p>
+        <p class="verse">اَلَا ۤ اِنَّهُمۡ هُمُ الۡمُفۡسِدُوۡنَ وَلٰـكِنۡ لَّا يَشۡعُرُوۡنَ‏ ١٢ وَاِذَا قِيۡلَ لَهُمۡ</p>
+        <p class="verse">اٰمِنُوۡا كَمَاۤ اٰمَنَ النَّاسُ قَالُوۡاۤ اَنُؤۡمِنُ كَمَاۤ اٰمَنَ السُّفَهَآءُ​ ؕ اَلَاۤ اِنَّهُمۡ</p>
+        <p class="verse">هُمُ السُّفَهَآءُ وَلٰـكِنۡ لَّا يَعۡلَمُوۡنَ‏ ١٣ وَاِذَا لَقُوۡا الَّذِيۡنَ اٰمَنُوۡا قَالُوۡاۤ اٰمَنَّا ۖۚ</p>
+        <p class="verse">وَاِذَا خَلَوۡا اِلٰى شَيٰطِيۡنِهِمۡۙ قَالُوۡاۤ اِنَّا مَعَكُمۡۙ اِنَّمَا نَحۡنُ مُسۡتَهۡزِءُوۡنَ‏ ﻿﻿ ١٤</p>
+        <p class="verse">اَللّٰهُ يَسۡتَهۡزِئُ بِهِمۡ وَيَمُدُّهُمۡ فِىۡ طُغۡيَانِهِمۡ يَعۡمَهُوۡنَ‏ ﻿﻿ ١٥ اُولٰٓٮِٕكَ</p>
+        <p class="verse">الَّذِيۡنَ اشۡتَرَوُا الضَّلٰلَةَ بِالۡهُدٰى فَمَا رَبِحَتۡ تِّجَارَتُهُمۡ وَمَا كَانُوۡا</p>
+        <p class="verse">مُهۡتَدِيۡنَ‏ ١٦ مَثَلُهُمۡ كَمَثَلِ الَّذِى اسۡتَوۡقَدَ نَارًا ​ۚ فَلَمَّاۤ اَضَآءَتۡ</p>
+        <p class="verse">مَا حَوۡلَهٗ ذَهَبَ اللّٰهُ بِنُوۡرِهِمۡ وَتَرَكَهُمۡ فِىۡ ظُلُمٰتٍ لَّا يُبۡصِرُوۡنَ‏ ﻿﻿ ١٧</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Page Number: <span id="page-number">4</span></p>
+    <p>Manzal Number: <span id="manzal-number">1</span></p>
+  </div>
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
